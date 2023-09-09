@@ -42,12 +42,10 @@ class ProductCellView : UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
           super.init(style: style, reuseIdentifier: reuseIdentifier)
           
-          // Add subviews to the cell's content view
           contentView.addSubview(productImageView)
           contentView.addSubview(titleLabel)
           contentView.addSubview(priceLabel)
           
-          // Define layout constraints
           NSLayoutConstraint.activate([
               productImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
               productImageView.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),

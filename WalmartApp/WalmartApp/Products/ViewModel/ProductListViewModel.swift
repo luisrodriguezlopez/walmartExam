@@ -31,7 +31,6 @@ class ProductListViewModel: ProductListViewModelProtocol {
         guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
             throw ProductError.invalidResponse
         }
-       // guard let reponse = response
         do {
             let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
