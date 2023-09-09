@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "299F0C9E-C8A0-41F3-9216-37B6DFDD439D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E77A8CE1-4647-4C33-97BA-DD0C9FB05839"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E77A8CE1-4647-4C33-97BA-DD0C9FB05839 - 369cca4e54057478"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for WalmartApp.ProductListViewModel.fetchProducts() async throws -&gt; Swift.Array&lt;WalmartApp.ProductElement&gt;"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "504">
+               </Location>
+               <Location
+                  uuid = "E77A8CE1-4647-4C33-97BA-DD0C9FB05839 - de6ee51b5d2c387a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for WalmartApp.ProductListViewModel.fetchProducts() async throws -&gt; Swift.Array&lt;WalmartApp.ProductElement&gt;"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+               <Location
+                  uuid = "E77A8CE1-4647-4C33-97BA-DD0C9FB05839 - 91978e72c1c09e7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for WalmartApp.ProductListViewModel.fetchProducts() async throws -&gt; Swift.Array&lt;WalmartApp.ProductElement&gt;"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "E77A8CE1-4647-4C33-97BA-DD0C9FB05839 - de6ee51b5d2c385b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for WalmartApp.ProductListViewModel.fetchProducts() async throws -&gt; Swift.Array&lt;WalmartApp.ProductElement&gt;"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "E77A8CE1-4647-4C33-97BA-DD0C9FB05839 - de6ee51b5d2c385b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for WalmartApp.ProductListViewModel.fetchProducts() async throws -&gt; Swift.Array&lt;WalmartApp.ProductElement&gt;"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "772">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E117AFB7-DD62-4C82-A76C-9FA3BC445B86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E117AFB7-DD62-4C82-A76C-9FA3BC445B86 - b5457a1e8da8519e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WalmartApp.ProductListViewModel.initViewModel() async -&gt; ()"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "E117AFB7-DD62-4C82-A76C-9FA3BC445B86 - db47e0dc5c98bbc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for WalmartApp.ProductListViewModel.initViewModel() async -&gt; ()"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E117AFB7-DD62-4C82-A76C-9FA3BC445B86 - de6ee51b5d2c3815"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for WalmartApp.ProductListViewModel.fetchProducts() async throws -&gt; Swift.Array&lt;WalmartApp.ProductElement&gt;"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ViewModel/ProductListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EEF6E6F-E948-46E1-A59A-BEA3E6FE72BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalmartApp/Products/ProductsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15414E1C-8F46-4793-8181-CBE86303DB25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalmartApp/Products/ProductsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "15414E1C-8F46-4793-8181-CBE86303DB25 - 981542d9b8c02115"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WalmartApp.ProductListView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ProductsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "15414E1C-8F46-4793-8181-CBE86303DB25 - 981542d9b8c02115"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WalmartApp.ProductListView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "WalmartApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luisr/Documents/GitHub/walmartExam/WalmartApp/WalmartApp/Products/ProductsListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C01F77B1-BD2C-4107-BA0F-B4B3B6525821"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WalmartApp/Products/ProductsListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
