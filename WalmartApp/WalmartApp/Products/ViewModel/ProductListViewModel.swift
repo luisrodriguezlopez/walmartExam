@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import UIKit
+import CoreData
 
 protocol ProductListViewModelProtocol {
     func fetchProducts() async throws -> [ProductElement]
@@ -45,7 +47,23 @@ class ProductListViewModel: ProductListViewModelProtocol {
             Task {
                 self.products = try await self.fetchProducts()
                 self.view?.finishLoadProducts()
+               // self.saveData()
             }
+    }
+    
+    func saveData() {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        guard let productsToSave = products as? [ProductElement] else {
+            return
+        }
+        for productData in productsToSave {
+            let productEntity = NSEntityDescription.insertNewObject(forEntityName: "ProductsEntity", into: context) as! ProductEntity
+            productEntity.product_title = productData.title
+            productEntity.product_price = productData.price
+            
+            appDelegate.saveContext()
+        }
     }
 }
 

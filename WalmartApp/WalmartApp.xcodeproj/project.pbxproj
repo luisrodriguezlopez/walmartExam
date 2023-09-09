@@ -20,6 +20,8 @@
 		B1CC8FB32AABF3BE00136E4E /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC8FB22AABF3BE00136E4E /* ProductModel.swift */; };
 		B1CC8FB62AAC003500136E4E /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC8FB52AAC003500136E4E /* Observable.swift */; };
 		B1CC8FB82AAC0A8300136E4E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC8FB72AAC0A8300136E4E /* Helper.swift */; };
+		B1CC8FBB2AAC0D5100136E4E /* SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC8FBA2AAC0D5100136E4E /* SwiftTest.swift */; };
+		B1CC8FBE2AAC117D00136E4E /* WalmartCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1CC8FBC2AAC117D00136E4E /* WalmartCoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B1CC8FB22AABF3BE00136E4E /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		B1CC8FB52AAC003500136E4E /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		B1CC8FB72AAC0A8300136E4E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B1CC8FBA2AAC0D5100136E4E /* SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest.swift; sourceTree = "<group>"; };
+		B1CC8FBD2AAC117D00136E4E /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		B1CC8F6A2AABEE0A00136E4E = {
 			isa = PBXGroup;
 			children = (
+				B1CC8FBC2AAC117D00136E4E /* WalmartCoreData.xcdatamodeld */,
 				B1CC8F752AABEE0A00136E4E /* WalmartApp */,
 				B1CC8F8C2AABEE0B00136E4E /* WalmartAppTests */,
 				B1CC8F962AABEE0B00136E4E /* WalmartAppUITests */,
@@ -107,6 +112,7 @@
 		B1CC8F752AABEE0A00136E4E /* WalmartApp */ = {
 			isa = PBXGroup;
 			children = (
+				B1CC8FB92AAC0D1200136E4E /* SwiftTest */,
 				B1CC8FB42AAC002700136E4E /* Helpers */,
 				B1CC8F762AABEE0A00136E4E /* AppDelegate.swift */,
 				B1CC8FA62AABEEC700136E4E /* Products */,
@@ -177,6 +183,14 @@
 				B1CC8FB72AAC0A8300136E4E /* Helper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B1CC8FB92AAC0D1200136E4E /* SwiftTest */ = {
+			isa = PBXGroup;
+			children = (
+				B1CC8FBA2AAC0D5100136E4E /* SwiftTest.swift */,
+			);
+			path = SwiftTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,8 +323,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CC8FBB2AAC0D5100136E4E /* SwiftTest.swift in Sources */,
 				B1CC8FB62AAC003500136E4E /* Observable.swift in Sources */,
 				B1CC8FA82AABEEEE00136E4E /* ProductsListView.swift in Sources */,
+				B1CC8FBE2AAC117D00136E4E /* WalmartCoreData.xcdatamodeld in Sources */,
 				B1CC8FAD2AABEF3A00136E4E /* ProductListViewModel.swift in Sources */,
 				B1CC8F772AABEE0A00136E4E /* AppDelegate.swift in Sources */,
 				B1CC8FB82AAC0A8300136E4E /* Helper.swift in Sources */,
@@ -642,6 +658,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1CC8FBC2AAC117D00136E4E /* WalmartCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1CC8FBD2AAC117D00136E4E /* Products.xcdatamodel */,
+			);
+			currentVersion = B1CC8FBD2AAC117D00136E4E /* Products.xcdatamodel */;
+			path = WalmartCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B1CC8F6B2AABEE0A00136E4E /* Project object */;
 }

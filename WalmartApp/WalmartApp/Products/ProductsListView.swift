@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-
+// Exercise 2: Table View Integration
 class ProductListView : UIViewController {
  
     lazy var tableView: UITableView = {
